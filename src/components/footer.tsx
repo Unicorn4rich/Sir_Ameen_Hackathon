@@ -13,7 +13,7 @@ function Footer() {
   return (
     <>
 
-       <footer className='w-full flex flex-col mt-[136px]'>
+       <footer className='w-full flex flex-col border-t-[1px] border-b-[1px] pt-[80px]   mt-[300px]'>
 
       <div className='w-full flex'>
         {/* div 1 */}
