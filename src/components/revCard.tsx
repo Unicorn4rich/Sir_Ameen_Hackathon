@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card } from './ui/card'
-import { FaCarSide } from "react-icons/fa";
 import { revCard_data } from './constant/revCard';
 import { FaCheck } from "react-icons/fa6";
 
