@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
 
-       <div className='w-full flex flex-col   mb-[200px]'>
+       <div className='w-full flex flex-col'>
 
 
         {/* top div 1 */}
@@ -79,7 +79,7 @@ function Header() {
         <div className='flex items-center justify-between py-[29.5px] border-b-[1px]'>
           <ul className='flex gap-[32px]'>
             <Link href={"/"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Home</li></Link>
-            <Link href={"!#"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Shop</li></Link>
+            <Link href={"/shopy"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Shop</li></Link>
             <Link href={"/products"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Product</li></Link>
             <Link href={"/pagesRoute"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Pages</li></Link>
             <Link href={"/about-us"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>About</li></Link>

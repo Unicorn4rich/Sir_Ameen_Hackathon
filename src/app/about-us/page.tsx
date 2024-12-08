@@ -7,7 +7,7 @@ function Page() {
   return (
     <>
 
-       <section className='w-full'>
+       <section className='w-full py-[100px]'>
 
         {/* about div 1 */}
         <div className='flex items-center justify-center gap-[29px]'>
@@ -39,6 +39,56 @@ function Page() {
             <div className='w-full h-[244px] flex gap-[29px] mt-[48px]'>
                 <RevCard/>
             </div>
+        </div>
+
+
+
+        {/* div 3 */}
+        <div className='mt-[131px]'>
+            <h1 className='text-[32px] leading-[35px] font-semibold'>Our Popular Products </h1>
+
+            {/* pictures */}
+         <div className='h-[462px] flex items-center gap-[20px] mt-[43px]'>
+             
+             {/* div 1 */}
+            <div className='h-full'>
+                <div>
+                    <Image src={"/products/p1.png"} alt="chairo" width={630} height={375}/>
+                </div>
+
+                <p className='text-[20px] leading-[28px] text-[#2A254B] mt-[24px]'>The Poplar suede sofa</p>
+
+                <h4 className='text-[18px] leading-[27px] text-[#2A254B] mt-[8px]'>$99.00</h4>
+            </div>
+
+
+            {/* div 2 */}
+            <div className='h-full'>
+                <div>
+                    <Image src={"/products/p2.png"} alt="chairo" width={305} height={375}/>
+                </div>
+
+                <p className='text-[20px] leading-[28px] text-[#2A254B] mt-[24px]'>The Dandy chair</p>
+
+                <h4 className='text-[18px] leading-[27px] text-[#2A254B] mt-[8px]'>$99.00</h4>
+            </div>
+
+
+               {/* div 2 */}
+               <div className='h-full'>
+                <div>
+                    <Image src={"/products/p3.png"} alt="chairo" width={305} height={375}/>
+                </div>
+
+                <p className='text-[20px] leading-[28px] text-[#2A254B] mt-[24px]'>The Dandy chair</p>
+
+                <h4 className='text-[18px] leading-[27px] text-[#2A254B] mt-[8px]'>$99.00</h4>
+            </div>
+
+         </div>
+
+
+
         </div>
 
        </section>

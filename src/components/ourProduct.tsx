@@ -6,7 +6,7 @@ function OurProduct() {
   return (
     <>
 
-       <section className='w-full mt-[173px]'>
+       <section className='w-full mt-[173px] mb-[136px]'>
 
         {/* heading */}
         <div>
