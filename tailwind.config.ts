@@ -10,6 +10,11 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			seeGreen: '#029FAE', // Tumhare custom color
+            // green: '#10B981',
+            // orange: '#F97316',
+            // red: '#EF4444',
+			
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
