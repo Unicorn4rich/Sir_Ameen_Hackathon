@@ -5,14 +5,12 @@ import OurProduct from "@/components/ourProduct";
 
 export default function Home() {
   return (
-    <>
-
-       
+    <div className=" md:px-[300px]">
         <Hero/>
         <LogoFeature/>
         <Category/>
         <OurProduct/>
 
-    </>
+    </div>
   );
 }

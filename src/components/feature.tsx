@@ -11,8 +11,8 @@ function Feature() {
         return(
             <Card className='h-full w-[263px] shadow-none border-none' key={index}>
 
-              <div className='w-full h-[263px]'>
-                <Image src={item.src} alt="image" width={270} height={263}/>
+              <div className='w-full h-[263px] transform hover:scale-[1.04] transition-transform duration-500 ease-in-out '>
+                <Image src={item.src} alt="image" width={270} height={263} />
               </div>
 
              <div className='flex items-center justify-between text-[#272343] mt-[15px]'>

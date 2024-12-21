@@ -9,31 +9,31 @@ function Page() {
   return (
     <>
 
-       <section className='w-full mt-[98px]'>
+       <section className='w-full mt-[20px] md:mt-[98px] px-[10px] md:px-[300px] mb-[30px] md:mb-[0px]'>
 
         {/* top div 1 */}
         <div className='w-full'>
 
             {/* text div */}
             <div className='text-center'>
-                <h1 className='text-[36px] leading-[54px] font-semibold text-[#000000]'>Get In Touch With Us</h1>
+                <h1 className='text-[25px] md:text-[36px] leading-[54px] font-semibold text-[#000000]'>Get In Touch With Us</h1>
                 <p className='text-[16px] leading-[24px]  text-[#9F9F9F]'>
-                    For More Information About Our Product & Services. Please Feel Free To Drop Us <br/> An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+                    For More Information About Our Product & Services. Please Feel Free To Drop Us <br className='hidden md:block'/> An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
             </div>
 
 
             {/* main div */}
-            <div className='flex justify-center mt-[128px] gap-[160px]'>
+            <div className='flex flex-col md:flex-row justify-center items-center md:items-start mt-[30px] md:mt-[128px] gap-[60px] md:gap-[160px]'>
 
                 {/* 1 */}
-                <div className='flex flex-col gap-[57px]'>
+                <div className='flex flex-col gap-[30px] md:gap-[57px]'>
 
                     <div className='flex gap-[30px]'>
                         <FaLocationDot size={24}/>
 
                         <div>
                             <h2 className='text-[24px] leading-[36px] font-medium'>Address</h2>
-                            <p className='text-[16px] leading-[19px]'>236 5th SE Avenue, New <br/> York NY10000, United <br/> States</p>
+                            <p className='text-[19px] md:text-[16px] leading-[19px]'>236 5th SE Avenue, New <br/> York NY10000, United <br/> States</p>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ function Page() {
 
                         <div>
                             <h2 className='text-[24px] leading-[36px] font-medium'>Phone</h2>
-                            <p className='text-[16px] leading-[19px]'>Mobile: +(84) 546-6789 <br/> Hotline: +(84) 456-6789</p>
+                            <p className='text-[19px] md:text-[16px] leading-[19px]'>Mobile: +(84) 546-6789 <br/> Hotline: +(84) 456-6789</p>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ function Page() {
 
                         <div>
                             <h2 className='text-[24px] leading-[36px] font-medium'>Working Time</h2>
-                            <p className='text-[16px] leading-[19px] mt-[7px]'>Monday-Friday: 9:00 -  <br/> 22:00 <br/>  Saturday-Sunday: 9:00 - <br/> 21:00</p>
+                            <p className='text-[19px] md:text-[16px] leading-[19px] mt-[7px]'>Monday-Friday: 9:00 -  <br/> 22:00 <br/>  Saturday-Sunday: 9:00 - <br/> 21:00</p>
                         </div>
                     </div>
 
@@ -63,36 +63,36 @@ function Page() {
 
 
                 {/* 2 */}
-                <div className='flex flex-col gap-[36px]'>
+                <div className='flex flex-col gap-[20px] md:gap-[36px]'>
 
                      {/* input 1 */}
-                    <div className='flex flex-col gap-[22px]'>
-                      <label className='text-[16px] leading-[24px] font-medium'>Your name</label>
-                      <input type='text' placeholder='Abc'  className='w-[528px] h-[75px] py-[26px] px-[29px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px] '/>
+                    <div className='flex flex-col gap-[7px] md:gap-[22px]'>
+                      <label className='text-[14px] md:text-[16px] leading-[24px] font-medium'>Your name</label>
+                      <input type='text' placeholder='Abc'  className='w-full md:w-[528px] md:h-[75px] py-[10px] md:py-[26px] px-[29px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px] '/>
                     </div>
 
                      {/* input 2 */}
-                    <div className='flex flex-col gap-[22px]'>
-                      <label className='text-[16px] leading-[24px] font-medium'>Email address</label>
-                      <input type='email' placeholder='Abc@def.com'  className='w-[528px] h-[75px] py-[26px] px-[29px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px] '/>
+                    <div className='flex flex-col gap-[7px] md:gap-[22px]'>
+                      <label className='text-[14px] md:text-[16px] leading-[24px] font-medium'>Email address</label>
+                      <input type='email' placeholder='Abc@def.com'  className='w-full md:w-[528px] md:h-[75px] py-[10px] md:py-[26px] px-[29px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px] '/>
                     </div>
 
                      {/* input 3 */}
-                    <div className='flex flex-col gap-[22px]'>
-                      <label className='text-[16px] leading-[24px] font-medium'>Subject</label>
-                      <input type='text' placeholder='This is an optional'  className='w-[528px] h-[75px] py-[26px] px-[29px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px] '/>
+                    <div className='flex flex-col gap-[7px] md:gap-[22px]'>
+                      <label className='text-[14px] md:text-[16px] leading-[24px] font-medium'>Subject</label>
+                      <input type='text' placeholder='This is an optional'  className='w-full md:w-[528px] md:h-[75px] py-[10px] md:py-[26px] px-[29px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px] '/>
                     </div>
 
 
                       {/* textarea 4 */}
-                      <div className='flex flex-col gap-[22px]'>
-                      <label className='text-[16px] leading-[24px] font-medium'>Message</label>
-                      <textarea placeholder='Hi! i’d like to ask about' className='w-[528px] h-[120px] py-[26px] px-[30px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px]'>
+                      <div className='flex flex-col gap-[7px] md:gap-[22px]'>
+                      <label className='text-[14px] md:text-[16px] leading-[24px] font-medium'>Message</label>
+                      <textarea placeholder='Hi! i’d like to ask about' className='w-full md:w-[528px] h-[120px] py-[26px] px-[30px] text-[#9F9F9F] border-[1px] border-[#9F9F9F] rounded-[10px]'>
                         Hi! id like to ask about</textarea>
                     </div>
 
 
-                    <Button className='w-[237] h-[55px] text-[16px] leading-[24px] text-white bg-[#029FAE] hover:bg-[#02a0aee0] mt-[13px]'>Submit</Button>
+                    <Button className='w-[130px] md:w-[237] h-[40px] md:h-[55px] text-[16px] leading-[24px] text-white bg-[#029FAE] hover:bg-[#02a0aee0] mt-[5px] md:mt-[13px]'>Submit</Button>
 
                 </div>
             </div>
@@ -101,7 +101,8 @@ function Page() {
 
 
         {/* bottom div 2 */}
-        <div className='w-full flex items-center gap-[132px] py-[100px] px-[66px] bg-[#F4F4F4] mt-[63px]'>
+        <div className='w-full h-[150px] overflow-y-auto flex flex-col md:flex-row items-center gap-[30px] md:gap-[132px] py-[25px] md:py-[100px] 
+        px-[30px] md:px-[66px] bg-[#F4F4F4] mt-[63px] '>
 
              {/* 1 */}
             <div className='flex items-center gap-[10px]'>

@@ -10,12 +10,12 @@ function RevCard() {
   
         {revCard_data.map((item, index)=>{
             return(
-         <Card className='h-full w-[309px] flex flex-col gap-[12px] bg-[#F9F9F9] p-[48px]' key={index}>
-            <div><FaCheck size={24} color='#007580'/></div>
+         <Card className='h-[150px] md:h-full w-[160px] md:w-[309px] flex flex-col justify-center gap-[8px] md:gap-[12px] bg-[#F9F9F9] p-[10px] md:p-[48px] shrink-0 flex-grow-0 transform hover:scale-[1.02] transition-transform duration-500 ease-in-out ' key={index}>
+            <div><FaCheck color='#007580' className='text-[15px] md:text-[24px]'/></div>
 
-            <h1 className='text-[20px] leading-[28px] text-[#007580]'>{item.heading}</h1>
+            <h1 className='text-[13px] md:text-[20px] leading-[28px] text-[#007580]'>{item.heading}</h1>
 
-            <p className='text-[16px] leading-[24px] text-[#007580]'>{item.deatils}</p>
+            <p className='text-[10px] md:text-[16px] md:leading-[24px] text-[#007580]'>{item.deatils}</p>
          </Card>
             )
         })}

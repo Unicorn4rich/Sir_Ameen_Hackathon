@@ -7,10 +7,16 @@ function LogoFeature() {
   return (
     <>
 
-       <section className='w-full flex flex-col mt-[53px]'>
+       <section className='w-full flex flex-col 
+       mt-[53px]'>
         
         {/* logos div */}
-        <div className='flex items-center gap-[106px]'>
+        <div className='
+        overflow-x-auto 
+        px-[10px]
+        flex 
+        items-center 
+        gap-[25px] md:gap-[100px] '>
 
             <Image src={"/logos/logo1.png"} alt="logo1" width={85} height={87}/>
             <Image src={"/logos/logo2.png"} alt="logo2" width={107} height={109}/>
@@ -24,14 +30,21 @@ function LogoFeature() {
 
 
         {/* feature products */}
-        <div className='flex flex-col mt-[24px]'>
+        <div className='flex justify-center flex-col 
+        mt-[20px] md:mt-[24px]
+        px-[10px] md:px-[0px]'>
             
             {/* heading */}
-            <h1 className='text-[32px] leading-[35px] font-semibold text-[#272343]'>Featured Products</h1>
+            <h1 className='
+            text-[25px] md:text-[32px] leading-[35px] font-semibold text-[#272343]'>Featured Products</h1>
 
 
             {/* products main div */}
-            <div className='w-full h-[377px] grid grid-cols-4 gap-[24px] mt-[40px]'>
+            <div className='w-full h-[377px] 
+            grid 
+            grid-cols-1 md:grid-cols-4 
+            gap-[24px] 
+            mt-[20px] md:mt-[40px]'>
 
                 {/* product card */}
                 <ProductCard data={featureProduct_Data} />
