@@ -16,7 +16,7 @@ import { IoMdMenu } from "react-icons/io";
 
 function Header() {
 
- let [TrFalse, SetTrFalse] = React.useState(false)
+ const [TrFalse, SetTrFalse] = React.useState(false)
 
   return (
     <>

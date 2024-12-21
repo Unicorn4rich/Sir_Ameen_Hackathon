@@ -5,7 +5,6 @@ import { Badge } from './ui/badge'
 import { Button } from './ui/button'
 import { LuShoppingCart } from 'react-icons/lu'
 import { Feat_data } from './constant/featureProduct'
-import Link from "next/link"
 
 
 
@@ -16,7 +15,7 @@ function ProductCard({data}: {data: Feat_data[]}) {
        {data.map((item, index)=> {
         return(
             
-          <Link href={"/id"}><Card className='
+          <Card className='
           h-full 
           f-1/2 md:w-full overflow-hidden shadow-none border-none ' key={index}>
 
@@ -79,7 +78,7 @@ function ProductCard({data}: {data: Feat_data[]}) {
 
         </div>
 
-          </Card> </Link>
+          </Card>
            
         )
        })}
