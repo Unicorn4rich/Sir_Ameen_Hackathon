@@ -6,7 +6,7 @@ import Image from "next/image"
 function Category() {
   return (
     <section className='w-full 
-    mt-[900px] md:mt-[136]
+    mt-[90px] md:mt-[136]
     px-[10px] md:px-[opx]'>
 
         {/* heading */}

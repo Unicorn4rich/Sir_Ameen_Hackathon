@@ -40,7 +40,7 @@ function LogoFeature() {
 
 
             {/* products main div */}
-            <div className='w-full h-[377px] 
+            <div className='w-full md:h-[377px] 
             grid 
             grid-cols-1 md:grid-cols-4 
             gap-[24px] 
